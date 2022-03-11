@@ -488,11 +488,20 @@
 	
 				},
 				sections = {
-					'presale': {
+					'lifestyle': {
 						events: {
 							onopen: [
 								function() { 
-									gtag('config', 'G-SSMX9B6LZS', { 'page_path': '/#presale' });
+									gtag('config', 'G-SSMX9B6LZS', { 'page_path': '/#lifestyle' });
+								},
+							],
+						},
+					},
+					'coin': {
+						events: {
+							onopen: [
+								function() { 
+									gtag('config', 'G-SSMX9B6LZS', { 'page_path': '/#coin' });
 								},
 							],
 						},
